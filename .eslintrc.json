@@ -24,24 +24,54 @@
         "no-unused-vars": 2,
         "no-useless-return": 2,
         "no-console": 0,
-        "indent": ["error", 4],
+        "indent": [
+            "error",
+            4
+        ],
         "no-underscore-dangle": "off",
-        "eqeqeq": ["error", "always"],
+        "eqeqeq": [
+            "error",
+            "always"
+        ],
         "require-await": "off",
-        "object-curly-newline": ["off"],
+        "object-curly-newline": [
+            "off"
+        ],
         "no-empty-pattern": "off",
         "no-plusplus": "off",
         "no-await-in-loop": "off",
-        "import/no-cycle": ["off", { "maxDepth": "∞" }],
-        "no-nested-ternary": ["off"],
-        "no-param-reassign": ["off"],
-        "consistent-return": ["off"],
-        "no-multi-assign": ["off"],
-        "prefer-const": ["off"],
-        "import/prefer-default-export": ["off"],
-        "no-shadow": ["off"],
-        "import/order": ["off"],
-        "no-undef": ["off"]
+        "import/no-cycle": [
+            "off",
+            {
+                "maxDepth": "∞"
+            }
+        ],
+        "no-nested-ternary": [
+            "off"
+        ],
+        "no-param-reassign": [
+            "off"
+        ],
+        "consistent-return": [
+            "off"
+        ],
+        "no-multi-assign": [
+            "off"
+        ],
+        "prefer-const": [
+            "off"
+        ],
+        "import/prefer-default-export": [
+            "off"
+        ],
+        "no-shadow": [
+            "off"
+        ],
+        "import/order": [
+            "off"
+        ],
+        "no-undef": [
+            "off"
+        ]
     }
 }
-

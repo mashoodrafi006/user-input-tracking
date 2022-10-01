@@ -1,9 +1,6 @@
 import userService from "../services/UserService";
 
 const userController = {};
-
-//add comments
-//check docker
 userController.trackValue = async (req, res) => {
     try {
         const { input } = req.body;
