@@ -3,10 +3,11 @@ const userService = {};
 var store = [];
 
 /**
- * Save user input in the store & keeps the size of the list upto the size defined in configs.
+ * Save user input in the store & keeps the size of the list upto the size defined in configurations.
 */
 userService.trackValue = (userInput) => {
     try {
+        /* Gets last user input value. */
         let previousInput = store[0];
 
         /** Push new input to start of store list using queue. */
@@ -14,7 +15,7 @@ userService.trackValue = (userInput) => {
 
         /** Keep fixed size of array i.e. 10 in order to avoid exploitation of memory & pop the last element if the size exceeds. */
         if (store.length == (config.resultSize + 1)) {
-            /** Remove the last element of the array if the list size exceeds the limit size defined in configs. */
+            /** Remove the last element of the array if the list size exceeds the limit size defined in configurations. */
             store.pop();
         }
 

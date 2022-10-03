@@ -23,7 +23,6 @@ userInputValidator.validateUserInput = async (req, res, next) => {
     } catch (error) {
         return res.json(response.INTERNAL_SERVER_ERROR);
     }
-
 }
 
 export default userInputValidator;
